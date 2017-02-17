@@ -1,0 +1,10 @@
+Package: curl2r
+Type: Package
+Title: Convert curl command to R command
+Version: 0.1.0
+Author: Yalei Du
+Maintainer: Yalei Du <yaleidu@163.com>
+Description: Convert curl command to R's httr command
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true

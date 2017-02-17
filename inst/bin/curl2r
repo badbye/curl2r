@@ -1,0 +1,4 @@
+#!/usr/bin/env Rscript
+local({
+  curl2r::main()
+})

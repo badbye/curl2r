@@ -7,7 +7,7 @@ get_template <- function(para){
 }
 
 post_template <- function(para){
-  cmd = "httr::POST('%s', body=%s, add_headers(%s), set_cookies(%s))"
+  cmd = "POST('%s', body=%s, add_headers(%s), set_cookies(%s))"
   sprintf(cmd,
           encodeString(para$url),
           format_vec(para$data),
